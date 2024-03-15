@@ -29,6 +29,8 @@ h1 {
 
 .card-image {
     height: 200px;
+    max-width: 100%;
+    max-height: 100%;
     background-size: cover;
 }
 
@@ -55,18 +57,22 @@ h1 {
     padding: 20px 10px;
 }
 
-#card-1 {
-    background-image: url();
+#card-1 .card-image{
+    background-image: url("https://th.bing.com/th/id/R.9ff8dcb036310c0edda68b16d427a3ee?rik=YN0G%2f0%2bwnIMOUA&pid=ImgRaw&r=0");
+    background-repeat: no-repeat;
 }
 
-#card-2 {
-    background-image: url(); 
+#card-2 .card-image{
+    background-image: url("https://res.cloudinary.com/skill-safari/image/upload/v1688640017/website/2.0/PYTHON_mipngi.jpg");
+    background-repeat: no-repeat;
 }
 
-#card-3 {
-    background-image: url();
+#card-3 .card-image{
+    background-image: url("https://th.bing.com/th/id/OIP.tQJEnqJpJ4iQf_bzQkWCQgAAAA?w=300&h=300&rs=1&pid=ImgDetMain");
+    background-repeat: no-repeat;
 }
 
-#card-4 {
-    background-image: url();
+#card-4 .card-image{
+    background-image: url("https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/042018/untitled-2_161.png?rGrAUCc_DG.Vb_UgZKfArV_3mfKfQrN.&itok=wY0wCxil");
+    background-repeat: no-repeat;
 }
